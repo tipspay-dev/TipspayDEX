@@ -16,6 +16,14 @@ export default defineConfig(({mode}) => {
       },
     },
     server: {
+      cors: true,
+      proxy: {
+        '/rpc-tipschain': {
+          target: 'https://rpc.tipschain.org',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/rpc-tipschain/, ''),
+        },
+      },
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
       // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== 'true',

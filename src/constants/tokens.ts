@@ -9,8 +9,8 @@ export const TIPSCHAIN: Chain = {
     decimals: 18,
   },
   rpcUrls: {
-    default: { http: ['https://rpc.tipschain.online'] }, // Assuming this RPC
-    public: { http: ['https://rpc.tipschain.online'] },
+    default: { http: ['/rpc-tipschain'] },
+    public: { http: ['/rpc-tipschain'] },
   },
   blockExplorers: {
     default: { name: 'Tipschain Explorer', url: 'https://scan.tipschain.online' },
@@ -23,28 +23,28 @@ export const TOKENS = [
     name: 'Tipschain',
     decimals: 18,
     address: '0x0000000000000000000000000000000000000000', // Native
-    logo: 'https://picsum.photos/seed/tpc-gold/200/200',
+    logo: 'input_file_4.png',
   },
   {
     symbol: 'wTPC',
     name: 'Wrapped Tipschain',
     decimals: 18,
     address: '0x1234...wTPC', // Placeholder
-    logo: 'https://picsum.photos/seed/wtpc-purple/200/200',
+    logo: 'input_file_6.png',
   },
   {
     symbol: 'USDTC',
     name: 'USDTips',
     decimals: 18,
     address: '0x1234...USDTC', // Placeholder
-    logo: 'https://picsum.photos/seed/usdtc-blue/200/200',
+    logo: 'input_file_5.png',
   },
   {
     symbol: 'USDT',
     name: 'Tether',
     decimals: 6,
     address: '0x1234...USDT', // Placeholder
-    logo: 'https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530a35180634666687063435472855f4c51e/128/color/usdt.png',
+    logo: 'input_file_0.png',
   },
 ];
 

@@ -19,7 +19,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-8">
           <div className="flex items-center gap-2">
-            <img src="https://picsum.photos/seed/tipspay-dex/200/200" alt="TipspayDEX" className="h-10 w-10 rounded-xl" referrerPolicy="no-referrer" />
+            <img src="input_file_2.png" alt="TipspayDEX" className="h-10 w-auto" referrerPolicy="no-referrer" />
             <span className="text-xl font-bold tracking-tighter hidden sm:block">
               TIPS<span className="text-neon-purple">DEX</span>
             </span>

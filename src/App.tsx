@@ -60,7 +60,7 @@ export default function App() {
         <footer className="fixed bottom-0 left-0 right-0 p-6 flex justify-center gap-8 text-xs text-muted-foreground glass border-t border-white/5 md:bg-transparent md:border-none md:backdrop-blur-none">
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
-              <img src="https://picsum.photos/seed/tipschain/200/200" alt="Tipschain" className="h-6 w-6 rounded-md opacity-70 hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
+              <img src="input_file_1.png" alt="Tipschain" className="h-6 w-auto opacity-70 hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
               <span className="font-bold text-neon-purple">TIPSCHAIN DEX v1.0.0</span>
             </div>
             <a href="https://scan.tipschain.online" target="_blank" rel="noreferrer" className="hover:text-neon-purple transition-colors">Explorer</a>
