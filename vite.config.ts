@@ -21,7 +21,12 @@ export default defineConfig(({mode}) => {
         '/rpc-tipschain': {
           target: 'https://rpc.tipschain.org',
           changeOrigin: true,
+          secure: false,
           rewrite: (path) => path.replace(/^\/rpc-tipschain/, ''),
+          headers: {
+            'Origin': 'https://rpc.tipschain.org',
+            'Referer': 'https://rpc.tipschain.org'
+          }
         },
       },
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
